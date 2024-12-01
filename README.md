@@ -1,1 +1,1 @@
-Hello!
+Minsoo's Python Algorithm Playground.
