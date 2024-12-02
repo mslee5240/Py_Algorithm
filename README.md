@@ -1,2 +1,1 @@
-Hi! \n
-Minsoo's Python Algorithm Playground.
+# Minsoo's Python Algorithm Playground.
