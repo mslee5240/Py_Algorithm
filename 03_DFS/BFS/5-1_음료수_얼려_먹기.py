@@ -5,7 +5,9 @@ n, m = map(int, input().split())
 # 2차원 리스트의 맵 정보 입력받기
 graph = []
 for i in range(n):
-    graph.append(list(map(int, input().split())))
+    graph.append(list(map(int, input())))   # 입력이 공백으로 구분되지 않음
+
+print(graph)
 
 # DFS로 특정한 노드를 방문한 뒤에 연결된 모든 노드들도 방문
 def dfs(x, y):
@@ -29,14 +31,14 @@ result = 0
 for i in range(n):
     for j in range(m):
         # 현재 위치에서 DFS 수행
-        if dfs(i, j) == True:
+        if dfs(i, j) == True:   # False를 반환하면 다음 반복 실행
             result += 1
 
 print(result)
 
 # 입력 예시:
 # 4 5
-# 0 0 1 1 0
-# 0 0 0 1 1
-# 1 1 1 1 1
-# 0 0 0 0 0
+# 00110
+# 00011
+# 11111
+# 00000

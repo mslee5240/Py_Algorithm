@@ -28,7 +28,7 @@ def bfs(x, y):
             # 미로 찾기 공간을 벗어난 경우 무시
             if nx < 0 or ny < 0 or nx >= n or ny >= m:
                 continue    # for 문의 다음 반복으로 넘어감
-            # 벽인 경우 무시
+            # 괴물(벽)인 경우 무시
             if graph[nx][ny] == 0:
                 continue
             # 해당 노드를 처음 방문하는 경우에만 최단 거리 기록
@@ -40,6 +40,9 @@ def bfs(x, y):
 
 # BFS를 수행한 결과 출력
 print(bfs(0, 0))
+
+for i in range(n):
+    print(graph[i])
 
 # 입력 예시:
 # 5 6
