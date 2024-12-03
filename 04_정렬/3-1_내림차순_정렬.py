@@ -11,3 +11,11 @@ array = sorted(array, reverse=True)
 # 정렬이 수행된 결과를 출력
 for i in array:
     print(i, end=' ')
+
+# 입력 예시:
+# 5
+# 1
+# 2
+# 3
+# 4
+# 5
