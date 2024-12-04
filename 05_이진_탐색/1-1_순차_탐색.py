@@ -17,3 +17,7 @@ def sequential_search(n, target, array):
         
 # 순차 탐색 수행 결과 출력
 print(sequential_search(n, target, array))
+
+# 입력 예시:
+# 5 Minsoo
+# Hanul Jonggu Minsoo Taeil Sangwook
