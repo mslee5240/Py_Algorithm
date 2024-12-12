@@ -12,7 +12,7 @@ for i in range(n):
     # '가장 작은 수'들 중에서 가장 큰 수 찾기
     result = max(result, min_value)
 
-    print(result)
+print(result)
 
 # # 입력 예시 1
 # 3 3

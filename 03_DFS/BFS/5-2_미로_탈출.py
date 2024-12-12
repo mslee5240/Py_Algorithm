@@ -6,7 +6,7 @@ n, m = map(int, input().split())
 
 # 2차원 리스트의 맵 정보 입력받기(공백 없이 입력)
 graph = []
-for i in range(n):
+for _ in range(n):
     graph.append(list(map(int, input())))
 
 # 이동할 네 방향 정의(상, 하, 좌, 우)
@@ -40,9 +40,6 @@ def bfs(x, y):
 
 # BFS를 수행한 결과 출력
 print(bfs(0, 0))
-
-for i in range(n):
-    print(graph[i])
 
 # 입력 예시:
 # 5 6

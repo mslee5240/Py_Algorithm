@@ -6,8 +6,8 @@ result = 0
 while True:
     # (n == k로 나누어 떨어지는 수)가 될 때까지 1씩 빼기
     target = (n // k) * k
-    n = target
     result += (n - target)
+    n = target
     # n이 k보다 작을 때(더 이상 나눌 수 없을 때) 반복문 탈출
     if n < k:
         break

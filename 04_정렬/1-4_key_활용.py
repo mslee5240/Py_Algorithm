@@ -6,4 +6,4 @@ def setting(data):
 
 result = sorted(array, key=setting)
 
-print(result)
+print(result)   # [('바나나', 2), ('당근', 3), ('사과', 5)]

@@ -2,7 +2,7 @@
 input_data = input()
 
 row = int(input_data[1])    # 행
-column = int(ord(input_data[0]) - int(ord('a')) + 1)    #열
+column = int(ord(input_data[0])) - int(ord('a')) + 1   #열
 
 # ord() 함수는 단일 문자(character)를 해당하는 유니코드 값(정수)으로 변환하는 함수. 
 # ex) ord('A') == 65

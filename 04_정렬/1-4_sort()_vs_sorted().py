@@ -30,4 +30,4 @@ print(sorted_tuple)  # 출력: [1, 2, 5, 9]
 # 문자열 정렬
 string_data = "python"
 sorted_string = sorted(string_data)
-print(sorted_string)  # 출력: ['h', 'n', 'o', 'p', 't', 'y']
+print(sorted_string)  # 출력: ['h', 'n', 'o', 'p', 't', 'y']ss
